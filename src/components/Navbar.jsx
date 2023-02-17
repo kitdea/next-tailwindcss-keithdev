@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link href='/'>Home</Link>
           </li>
           <li className='p-4 text-xl'>
-            <Link href='/gallery'>About</Link>
+            <Link href='/about'>About</Link>
           </li>
           <li className='p-4 text-xl'>
             <Link href='/work'>Work</Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='p-4 text-4xl hover:text-gray-300'>
-              <Link href='/gallery'>About</Link>
+              <Link href='/about'>About</Link>
             </li>
             <li className='p-4 text-4xl hover:text-gray-300'>
               <Link href='/work'>Work</Link>

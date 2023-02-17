@@ -20,7 +20,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
 }
 
   return (
-    <div id="gallery" className='w-full mx-auto'>
+    <div id="about" className='w-full mx-auto'>
       <h1 className='text-4xl font-bold text-center p-4'>Gallery</h1>
 
         {SliderData.map((slide, index) => {

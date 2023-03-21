@@ -12,8 +12,7 @@ const Work = () => {
 
       <div className="sm:w-full m-w-[1240px] max-w-screen-xl text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed bg-black">
         <div>
-          <h1 className='text-3xl text-center italic'>Under Maintenance</h1>
-          <h2 className='text-2xl text-center italic'>Coming Soon</h2>
+          <h1 className='text-3xl text-center italic'>Coming Soon</h1>
         </div>
       </div>
     </div>

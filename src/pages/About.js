@@ -12,7 +12,7 @@ const About = () => {
       
       <div className="sm:w-full m-w-[1240px] max-w-screen-xl text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed bg-black">
       <div>
-        <h1 className="text-7xl md:text-7xl font-bold">About Me</h1>
+        <h1 className="text-7xl md:text-7xl font-bold mb-10">About Me</h1>
         <p className="text-xl mb-4">
           Hi there! My name is Francis and I am a Web Developer, Designer, and SEO Specialist based in Philippines.
         </p>

@@ -1,4 +1,6 @@
-import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import Layout from '@/components/Layout'
 import '@/styles/globals.css'
 import { Poppins } from '@next/font/google'
 
@@ -10,11 +12,12 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }) {
   return (
     <main className={poppins.className}>
-      <Navbar />
-      <Component {...pageProps} />
+      <Layout>
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </Layout>
     </main>
-
   )
-  
   
 }

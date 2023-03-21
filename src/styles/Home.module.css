@@ -7,6 +7,10 @@
   min-height: 100vh;
 }
 
+.custom-img {
+  background-image: url('/public/avatar-purple.svg');
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

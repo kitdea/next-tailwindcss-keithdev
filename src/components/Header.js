@@ -1,8 +1,8 @@
-import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
+import Link from 'next/link';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
-const Navbar = () => {
+const Header = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
   const [textColor, setTextColor] = useState('white');
@@ -36,13 +36,13 @@ const Navbar = () => {
             <Link href='/'>Home</Link>
           </li>
           <li className='p-4 text-xl'>
-            <Link href='/about'>About</Link>
+            <Link href='/About'>About</Link>
           </li>
           <li className='p-4 text-xl'>
-            <Link href='/work'>Work</Link>
+            <Link href='/Work'>Work</Link>
           </li>
           <li className='p-4 text-xl'>
-            <Link href='/contact'>Contact</Link>
+            <Link href='/Contact'>Contact</Link>
           </li>
         </ul>
 
@@ -53,8 +53,8 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={
           nav 
-            ? 'md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-            : 'md:hidden absolute top-0 left-[-200%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' 
+            ? 'md:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-gray-900 text-center ease-in duration-300'
+            : 'md:hidden absolute top-0 left-[-200%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-grey text-center ease-in duration-300' 
         }>
           <ul>
             <li className='p-4 text-4xl hover:text-gray-300'>
@@ -77,4 +77,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Header

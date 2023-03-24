@@ -7,9 +7,9 @@
   min-height: 100vh;
 }
 
-.custom-img {
-  background-image: url('/public/avatar-purple.svg');
-}
+/* .custom-img {
+  background-image: url('https://www.pexels.com/photo/silhouette-photography-of-rocky-mountains-under-starry-sky-2565420/');
+} */
 
 .description {
   display: inherit;

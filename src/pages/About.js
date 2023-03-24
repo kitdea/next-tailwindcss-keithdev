@@ -10,7 +10,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className="sm:w-full m-w-[1240px] max-w-screen-xl text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed bg-black">
+      <div className="sm:w-full m-w-[1240px] xl:w-8/12 p-4 text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed">
       <div>
         <h1 className="text-7xl md:text-7xl font-bold mb-10">About Me</h1>
         <p className="text-xl mb-4">

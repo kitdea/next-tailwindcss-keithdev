@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Hero from '@/components/Hero';
 
 function HomePage() {
@@ -12,7 +11,6 @@ function HomePage() {
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <Hero headingTitle='Hi I&#39;m Francis' message='#WebDeveloper #WebDesigner #SEO | based in Philippines' />
-      
     </div>
   )
 }

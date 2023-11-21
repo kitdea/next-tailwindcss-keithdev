@@ -1,5 +1,5 @@
-import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className="sm:w-full m-w-[1240px] xl:w-8/12 p-4 text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed">
+      <div className="container p-4 text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed">
       <div>
         <h1 className="text-7xl md:text-7xl font-bold mb-10">About Me</h1>
         <p className="text-xl mb-4">
@@ -28,8 +28,13 @@ const About = () => {
         <p className="text-xl mb-4">
           Thank you for visiting my website. Hope to work with you soon!
         </p>
+
+          <div>
+            <p className='text-xl text-purple-500 underline'><span className='font-bold'><Link href='/Resume'>CV/Resume</ Link></span></p>
+          </div>
         </div>
       </div>
+      
     </div>
   )
 }

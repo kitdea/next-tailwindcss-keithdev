@@ -26,8 +26,8 @@ const Header = () => {
 
 
   return (
-    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-      <div className='sm:w-full m-w-[1240px] m-auto flex justify-between items-center p-4 text-white xl:w-8/12'>
+    <div style={{backgroundColor: `${color}`}} className='left-0 top-0 w-full z-10 ease-in duration-300'>
+      <div className='container m-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
           <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>fmR</h1>
         </Link>
@@ -61,13 +61,13 @@ const Header = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='p-4 text-4xl hover:text-gray-300'>
-              <Link href='/about'>About</Link>
+              <Link href='/About'>About</Link>
             </li>
             <li className='p-4 text-4xl hover:text-gray-300'>
-              <Link href='/work'>Work</Link>
+              <Link href='/Work'>Work</Link>
             </li>
             <li className='p-4 text-4xl hover:text-gray-300'>
-              <Link href='/contact'>Contact</Link>
+              <Link href='/Contact'>Contact</Link>
             </li>
           </ul>
         </div>  

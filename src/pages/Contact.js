@@ -10,10 +10,11 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="sm:w-full m-w-[1240px] xl:w-8/12 p-4 text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed">
+      <div className="container p-4 text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed">
         <div>
           <h1 className="text-7xl md:text-7xl font-bold mb-10">Contact</h1>
-          <h2 className='text-2xl'>francismarrosales@gmail.com</h2>
+          <h2 className='text-2xl'><span className="font-bold">WhatsApp:</span> <span className="cursor-pointer hover:text-purple-500">+63 995 876-6249</span></h2>
+          <h3 className='text-2xl'><span className="font-bold">Email:</span> <a className="hover:text-purple-500" href="mailto:francismarrosales@gmail.com">francismarrosales@gmail.com</a></h3>
         </div>
       </div>
     </div>

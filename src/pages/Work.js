@@ -15,41 +15,41 @@ const Work = () => {
         </div>
         
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <article class="flex max-w-xl flex-row items-start justify-between border border-gray-500 p-5 rounded-xl">
+          <article className="flex max-w-xl flex-row items-start justify-between border border-gray-500 p-5 rounded-xl">
           
-            <div class="group relative">
-              <h3 class="mt-3 text-3xl font-semibold leading-6 text-white group-hover:text-gray-2  00">
+            <div className="group relative">
+              <h3 className="mt-3 text-3xl font-semibold leading-6 text-white group-hover:text-gray-2  00">
                 <a href="#">
-                  <span class="absolute inset-0"></span>
+                  <span className="absolute inset-0"></span>
                   Project 1
                 </a>
               </h3>
-              <p class="mt-5 text-lg leading-6 text-white line-clamp-3">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+              <p className="mt-5 text-lg leading-6 text-white line-clamp-3">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
             </div>
             
           </article>
-          <article class="flex max-w-xl flex-row items-start justify-between border border-gray-500 p-5 rounded-xl">
+          <article className="flex max-w-xl flex-row items-start justify-between border border-gray-500 p-5 rounded-xl">
 
-            <div class="group relative">
-              <h3 class="mt-3 text-3xl font-semibold leading-6 text-white group-hover:text-gray-2  00">
+            <div className="group relative">
+              <h3 className="mt-3 text-3xl font-semibold leading-6 text-white group-hover:text-gray-2  00">
                 <a href="#">
-                  <span class="absolute inset-0"></span>
+                  <span className="absolute inset-0"></span>
                   Project 2
                 </a>
               </h3>
-              <p class="mt-5 text-lg leading-6 text-white line-clamp-3">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+              <p className="mt-5 text-lg leading-6 text-white line-clamp-3">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
             </div>
             
           </article>
-          <article class="flex max-w-xl flex-row items-start justify-between border border-gray-500 p-5 rounded-xl">
-            <div class="group relative">
-              <h3 class="mt-3 text-3xl font-semibold leading-6 text-white group-hover:text-gray-2  00">
+          <article className="flex max-w-xl flex-row items-start justify-between border border-gray-500 p-5 rounded-xl">
+            <div className="group relative">
+              <h3 className="mt-3 text-3xl font-semibold leading-6 text-white group-hover:text-gray-2  00">
                 <a href="#">
-                  <span class="absolute inset-0"></span>
+                  <span className="absolute inset-0"></span>
                   Project 3
                 </a>
               </h3>
-              <p class="mt-5 text-lg leading-6 text-white line-clamp-3">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+              <p className="mt-5 text-lg leading-6 text-white line-clamp-3">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
             </div>
           </article>
         

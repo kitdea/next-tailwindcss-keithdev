@@ -30,7 +30,10 @@ const About = () => {
         </p>
 
           <div>
-            <p className='text-base md:text-lg text-purple-500 underline'><span className='font-bold'><Link href='/Resume'>CV/Resume</ Link></span></p>
+            <button className='text-1xl px-8 py-2 border hover:border-purple-500 hover:text-purple-500 font-bold'>
+              <Link href='/Resume'>Check my CV/Resume</ Link>
+            </button>
+              <p className='text-base md:text-lg text-purple-500 underline'><span className='font-bold'></span></p>
           </div>
         </div>
       </div>

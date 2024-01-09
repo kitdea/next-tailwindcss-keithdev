@@ -10,7 +10,7 @@ const Work = () => {
       </Head>
 
       <div className="container text-white m-auto flex flex-col align-middle justify-center h-[60vh] md:h-[80vh] p-4">
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-center mb-10">Coming Soon...</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-extralight mb-10">Coming Soon...</h1>
       </div>
 
       <div className="container text-white m-auto flex flex-col align-middle justify-center h-full lg:h-[80vh] bg-fixed p-4 my-12 hidden">

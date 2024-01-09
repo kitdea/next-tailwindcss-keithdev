@@ -9,7 +9,7 @@ const Work = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container text-white m-auto flex flex-col align-middle justify-center h-[90vh] bg-fixed p-4">
+      <div className="container text-white m-auto flex flex-col align-middle justify-center h-[80vh] bg-fixed p-4">
         <div>
           <h1 className='text-7xl md:text-7xl font-bold mb-10'>Project</h1>
         </div>

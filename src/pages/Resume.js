@@ -40,7 +40,7 @@ const Resume = () => {
             <h5 className='text-gray-400 italic mb-3'>November 2022 – present</h5>
             <ul className='md:text-xl ml-10 list-disc'>
               <li>WordPress, Elementor, Divi, HTML, CSS, Javascript, Figma</li>
-              <li>Keyword research, Link building, On-page optimization., Site audit  </li>
+              <li>Keyword research, On-page optimization, Site audit  </li>
               <li>Repurposing/Updating content in blog post</li>
               <li>Experience using SEO tools: Ahrefs, Bright Local, Raven tools, Screaming Frog, GSC, GA4</li>
               <li>Updating website as instructed by the client</li>

@@ -6,7 +6,7 @@ const Work = () => {
      <Head>
         <title>fmR | Work</title>
         <meta name="keywords" content="web developer" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/avatar-purple.svg' />
       </Head>
 
       <div className="container text-white m-auto flex flex-col align-middle justify-center h-[60vh] md:h-[80vh] p-4">

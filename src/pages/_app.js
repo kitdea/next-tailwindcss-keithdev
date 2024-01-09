@@ -13,7 +13,6 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }) {
   return (
     <main className={poppins.className}>
-    {/* <!-- Google tag (gtag.js) --> */}
       
       <Layout>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-F35C77DV7F"/>

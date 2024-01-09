@@ -6,7 +6,7 @@ const Resume = () => {
       <Head>
         <title>fmR | Resume</title>
         <meta name="keywords" content="web developer" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/avatar-purple.svg' />
       </Head>
       <div className='container p-4 text-white m-auto flex flex-col align-middle justify-center cursor-default select-none'>
 
@@ -42,7 +42,7 @@ const Resume = () => {
               <li>WordPress, Elementor, Divi, HTML, CSS, Javascript, Figma</li>
               <li>Keyword research, On-page optimization, Site audit  </li>
               <li>Repurposing/Updating content in blog post</li>
-              <li>Experience using SEO tools: Ahrefs, Bright Local, Raven tools, Screaming Frog, GSC, GA4</li>
+              <li>Experience using SEO tools: Semrush, Ahrefs, Bright Local, Screaming Frog, GSC, GA4</li>
               <li>Updating website as instructed by the client</li>
               <li>GoHighLevel: Automation, Workflow, Integration, Funnels, Websites</li>
             </ul>

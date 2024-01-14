@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Hero = ({ headingTitle, message }) => {
   return (
-    <div className='container p-4 m-auto flex items-center align-middle h-full max-h-screen md:h-[80vh] bg-fixed bg-cover bg-center'>
+    <div className='container p-4 m-auto flex items-center align-middle h-[60vh] md:h-[80vh] bg-fixed bg-cover bg-center'>
       {/* overlay */}
       <div className=''/>
       <div className='text-white z-[8]'>

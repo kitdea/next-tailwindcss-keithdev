@@ -12,6 +12,7 @@ const Resume = () => {
 
         <div className='mt-10 mb-10'>
           <h1 className='text-3xl md:text-4xl font-bold mb-2'>Francis Mar Ong Rosales</h1>
+          <h4 className='md:text-xl'>Mobile: +63 991 331-5746</h4>
           <h4 className='md:text-xl'>Whatsapp: +63 995 876-6249</h4>
           <h5 className='md:text-xl'>Email: francismarrosales@gmail.com</h5>
         </div>

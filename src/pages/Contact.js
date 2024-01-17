@@ -13,6 +13,7 @@ const Contact = () => {
       <div className="container p-4 text-white m-auto flex flex-col align-middle justify-center h-[60vh] md:h-[80vh] bg-fixed">
         <div>
           <h1 className="text-4xl md:text-7xl font-bold mb-10">Contact</h1>
+          <h2 className='text-base md:text-lg'><span className="font-bold">Mobile:</span> <span className="cursor-pointer hover:text-purple-500">+63 991 331-5746</span></h2>
           <h2 className='text-base md:text-lg'><span className="font-bold">WhatsApp:</span> <span className="cursor-pointer hover:text-purple-500">+63 995 876-6249</span></h2>
           <h3 className='text-base md:text-lg'><span className="font-bold">Email:</span> <a className="hover:text-purple-500" href="mailto:francismarrosales@gmail.com">francismarrosales@gmail.com</a></h3>
         </div>

@@ -12,7 +12,7 @@ const Resume = () => {
 
         <div className='mt-10 mb-10'>
           <h1 className='text-3xl md:text-4xl font-bold mb-2'>Francis Mar Ong Rosales</h1>
-          <h4 className='md:text-xl'>Mobile: +63 995 876-6249</h4>
+          <h4 className='md:text-xl'>Whatsapp: +63 995 876-6249</h4>
           <h5 className='md:text-xl'>Email: francismarrosales@gmail.com</h5>
         </div>
 
@@ -23,8 +23,9 @@ const Resume = () => {
           <div className='p-5 hover:bg-gray-800'>
             <ul className='md:text-xl ml-10 list-disc'>
             <li>HTML, CSS, SASS, Bootstrap, TailwindCSS, JavaScript, jQuery, PHP, WordPress, Docker</li>
+            <li>WordPress, Elementor, Divi</li>
             <li>Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe XD, Figma, CorelDraw</li>
-            <li>Ahrefs, Bright Local, Raven Tools, Screaming Frog</li>
+            <li>Semrush, Ahrefs, Bright Local, Raven Tools, Screaming Frog, Google Analytics 4, Google Search Console</li>
             <li>GoHighLevel: Automation, Workflow, Integration, Funnels, Websites</li>
             <li>Basic knowledge command using Git, GitHub in Windows PowerShell, and Bash</li>
           </ul>

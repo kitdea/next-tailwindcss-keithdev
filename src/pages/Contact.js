@@ -17,8 +17,15 @@ const Contact = () => {
           <h2 className='text-base md:text-lg'><span className="font-bold">WhatsApp:</span> <span className="cursor-pointer hover:text-purple-500">+63 995 876-6249</span></h2>
           <h3 className='text-base md:text-lg'><span className="font-bold">Email:</span> <a className="hover:text-purple-500" href="mailto:francismarrosales@gmail.com">francismarrosales@gmail.com</a></h3>
         </div>
+
+        
+
       </div>
     </div>
+
+  
+
+
   )
 }
 
